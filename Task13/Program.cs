@@ -3,7 +3,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-int Number = new Random().Next(1000, 20000);
+int Number = new Random().Next(1, 32680);
 Console.WriteLine($"Дано число: {Number}");
 
 if (Number / 10000 > 0)
