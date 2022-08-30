@@ -30,3 +30,10 @@ if (anyNumberText.Length > 2){ // к имени метода добавли св
 else {
   Console.WriteLine("третьей цифры нет");
 }
+
+// Решение от Степана
+
+void GetDigit(string number){
+  System.Console.WriteLine(number[2]);
+}
+GetDigit("5918764");
